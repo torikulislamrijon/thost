@@ -157,7 +157,7 @@ importers:
       generate-password: ^1.7.0
       graphiql: ^2.2.0
       graphql: 16.6.0
-      graphql-request: ^4.3.0
+      graphql-request: ^5.0.0
       graphql-tag: ^2.12.6
       graphql-ws: ^5.11.2
       jsdom: ^20.0.3
@@ -239,7 +239,7 @@ importers:
       generate-password: 1.7.0
       graphiql: 2.2.0_vyr7fdhf7havyasfbu36idsdxe
       graphql: 16.6.0
-      graphql-request: 4.3.0_graphql@16.6.0
+      graphql-request: 5.0.0_graphql@16.6.0
       graphql-tag: 2.12.6_graphql@16.6.0
       graphql-ws: 5.11.2_graphql@16.6.0
       lodash.debounce: 4.0.8
@@ -270,7 +270,7 @@ importers:
       '@babel/core': 7.20.2
       '@graphql-codegen/cli': 2.13.6_kyz2oohkk3pblubgvvdpiwyc5a
       '@graphql-codegen/typescript': 2.7.4_graphql@16.6.0
-      '@graphql-codegen/typescript-graphql-request': 4.5.8_upqs5jjd3ykece5dxcsvdam2ju
+      '@graphql-codegen/typescript-graphql-request': 4.5.8_vxjna5bwgkgoztnbq3trofjfwq
       '@graphql-codegen/typescript-operations': 2.5.4_graphql@16.6.0
       '@graphql-codegen/typescript-react-apollo': 3.3.4_sy4knu3obj4ys7pjcqbyfxmqle
       '@next/bundle-analyzer': 12.3.1
@@ -5643,7 +5643,7 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-codegen/typescript-graphql-request/4.5.8_upqs5jjd3ykece5dxcsvdam2ju:
+  /@graphql-codegen/typescript-graphql-request/4.5.8_vxjna5bwgkgoztnbq3trofjfwq:
     resolution: {integrity: sha512-XsuAA35Ou03LsklNgnIWXZ5HOHsJ5w1dBuDKtvqM9rD0cAI8x0f4TY0n6O1EraSBSvyHLP3npb1lOTPZzG2TjA==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -5654,7 +5654,7 @@ packages:
       '@graphql-codegen/visitor-plugin-common': 2.13.1_graphql@16.6.0
       auto-bind: 4.0.0
       graphql: 16.6.0
-      graphql-request: 4.3.0_graphql@16.6.0
+      graphql-request: 5.0.0_graphql@16.6.0
       graphql-tag: 2.12.6_graphql@16.6.0
       tslib: 2.4.1
     transitivePeerDependencies:
@@ -19454,6 +19454,7 @@ packages:
       graphql: 16.6.0
     transitivePeerDependencies:
       - encoding
+    dev: true
 
   /graphql-request/5.0.0_graphql@16.6.0:
     resolution: {integrity: sha512-SpVEnIo2J5k2+Zf76cUkdvIRaq5FMZvGQYnA4lUWYbc99m+fHh4CZYRRO/Ff4tCLQ613fzCm3SiDT64ubW5Gyw==}
@@ -19467,7 +19468,6 @@ packages:
       graphql: 16.6.0
     transitivePeerDependencies:
       - encoding
-    dev: false
 
   /graphql-scalars/1.18.0_graphql@16.6.0:
     resolution: {integrity: sha512-XrMwSim4xJ5n1UdT3YMJh9uT3oB/th5jR5bIMJvYxmgq/rGDkfXNtCRSL/+dLMHxGM0thYPfIZDua1+aQlKBMA==}
