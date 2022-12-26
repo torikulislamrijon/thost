@@ -45,7 +45,7 @@
     "graphql": "16.6.0",
     "graphql-scalars": "^1.18.0",
     "jsonwebtoken": "^9.0.0",
-    "stripe": "^10.10.0"
+    "stripe": "^11.0.0"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.0",
